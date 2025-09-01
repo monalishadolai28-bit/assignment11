@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int a = 17, b = 5;
+    int quotient = a / b;
+    int remainder = a - (quotient * b);
+
+    printf("Quotient = %d\n", quotient);
+    printf("Remainder = %d\n", remainder);
+
+    return 0;
+}
